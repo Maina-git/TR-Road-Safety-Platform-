@@ -1,15 +1,22 @@
+import { MdDashboard } from "react-icons/md";
+import { FaCar } from "react-icons/fa";
+
+
 export const Navlinks = [
 {
     id:1,
     title:"Overview",
-    href:"/"
+    href:"/",
+    icon: MdDashboard
 },
 {
     id:2,
     title:"Register Your Car",
-    href:"/register"
+    href:"/register",
+    icon: FaCar
 },
 ];
+
 
 export const Services = [
   {
