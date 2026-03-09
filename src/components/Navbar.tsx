@@ -23,10 +23,10 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed w-full top-0 left-0 z-50 transition-all duration-500
-      ${scrolled ? "bg-black shadow-lg" : "bg-white/80"}
+      className={`w-full top-0 left-0 z-50 transition-all duration-500
+      ${scrolled ? "bg-black shadow-lg fixed" : "bg-white/80"}
       `}>
-      <div className="w-[90%] md:w-[1100px] mx-auto h-[80px] flex items-center justify-between">
+      <div className="w-[90%] md:w-275 mx-auto h-20 flex items-center justify-between">
         <div className="flex items-center gap-3 cursor-pointer">
           <SiTrainerroad className={`text-3xl ${scrolled ? "text-white" : "text-blue-700"}`} />
           <span className={`font-bold text-xl ${scrolled ? "text-white" : "text-blue-900"}`}>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 className={`flex items-center gap-2 font-semibold transition duration-300
                 ${scrolled ? "text-white hover:text-blue-400" : "text-gray-600 hover:text-blue-700"}
                 `}>
-                <Icon className="text-lg" />
+                <Icon className="text-lg"/>
                 {item.title}
               </Link>
             );
