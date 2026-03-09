@@ -163,8 +163,6 @@ const Register = () => {
               className="w-full md:col-span-2 p-3 bg-gray-50 border rounded-lg"/>
           </div>
         </div>
-
-
         <div className="mt-14">
           <h2 className="text-xl font-bold text-blue-900 mb-6">Vehicle Details</h2>
           <div className="grid md:grid-cols-2 gap-6">
@@ -179,7 +177,6 @@ const Register = () => {
               <option>Truck</option>
               <option>Motorcycle</option>
             </select>
-
             <select
               name="vehicleServiceType"
               value={driverData.vehicleServiceType}
@@ -189,7 +186,6 @@ const Register = () => {
               <option value="public">Public</option>
               <option value="private">Private</option>
             </select>
-
             <input
               type="text"
               name="plateNumber"
@@ -204,7 +200,6 @@ const Register = () => {
               value={driverData.chassisNumber}
               onChange={handleChange}
               className="w-full p-3 bg-gray-50 border rounded-lg"/>
-
             <select
               name="insuranceProvider"
               value={driverData.insuranceProvider}
@@ -225,7 +220,6 @@ const Register = () => {
               className="w-full p-3 bg-gray-50 border rounded-lg"/>
           </div>
         </div>
-
         <div className="mt-14 text-center">
           <button
             onClick={handleRegister}
@@ -233,8 +227,6 @@ const Register = () => {
             Register Driver & Vehicle
           </button>
         </div>
-
-
         {qrValue && (
           <div className="mt-10 flex flex-col items-center">
             <div id="qrWrapper">

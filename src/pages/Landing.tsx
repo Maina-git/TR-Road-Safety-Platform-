@@ -175,9 +175,9 @@ const Landing = () => {
                 alt="Contact"/>
             </div>
             <div className="w-full md:w-1/2 flex flex-col gap-4 text-lg font-semibold">
-              <span>07123456763</span>
-              <span>01232167452</span>
-              <span>roadsafety@authority.com</span>
+              <span>0793720578</span>
+              <span>0793720578</span>
+              <span>francismm2023@gmail.com</span>
             </div>
           </div>
         </div>
