@@ -225,7 +225,7 @@ const Register = () => {
               className="w-full p-3 bg-gray-50 border rounded-lg"/>
           </div>
         </div>
-        
+
         <div className="mt-14 text-center">
           <button
             onClick={handleRegister}
@@ -243,7 +243,7 @@ const Register = () => {
             <button
               onClick={handlePrint}
               className="mt-4 px-6 py-2 text-gray-500 rounded-lg shadow-lg">
-              <FaPrint/>
+              <FaPrint className="text-3xl"/>
             </button>
           </div>
         )}
